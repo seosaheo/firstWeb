@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box
+}
+#profile{
+    margin: auto;
+    margin-top: 30px;
+    background-color: #eee;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+#profile img{
+    width: 95%;
+    border-radius: 15px 15px 0 0;
+}
+#profile .detail{
+    margin: 20px auto;
+    width: 95%;
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+}
+.text-large{
+    font-size: 1.2em;
+}
+#profile a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 8px;
+    border-radius: 5px;
+}
+#reply-box{
+    border: 1px solid #eee;
+    border-radius: 10px;
+    width: 40%;
+    margin: 30px auto;
+    padding: 0 10px 5px 10px;
+}
+
+.reply{
+    background-color: #add;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+}
+#profile #reply-box{
+    box-shadow: 5px 5px 10px rgba(0,0,0,-0.4);
+}
